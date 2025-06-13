@@ -9,7 +9,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            Console.WriteLine("Введите в строку с клавиатуры логическое\r\nвыражение. Например, 3>2 или 7<3.");
+            string input = Input.UserInput.GetStringFromUser();
+            bool result = LoficArifmetic.ConverUserToBool(input);
+            Console.WriteLine(result);
+
         }
     }
 }

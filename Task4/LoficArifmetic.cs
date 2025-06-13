@@ -14,7 +14,7 @@ namespace Task4
 ввода используйте механизм исключений.*/
     internal class LoficArifmetic
     {
-        public static bool Evaluate(string input)
+        public static bool ConverUserToBool(string input)
         {
             // Регулярное выражение для поиска двух целых чисел и оператора между ними
             string pattern = @"^\s*(-?\d+)\s*(<=|>=|==|!=|<|>)\s*(-?\d+)\s*$";
